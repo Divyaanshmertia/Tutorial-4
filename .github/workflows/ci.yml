@@ -1,7 +1,7 @@
 name: Train and Test
 on:
   push:
-    branches: [integration]
+    branches: [integration, deployment]
 
 jobs:
   train_and_upload:
